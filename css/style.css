@@ -1,0 +1,71 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    background: #081b29;
+    border-radius: 20px;
+    padding: 1px 10px;
+    min-width: 420px;
+
+}
+
+h2{
+    margin: 0;
+    font-size: 34px;
+    color: #fff;
+}
+
+h3{
+    border-bottom: 3px solid #69eBd0;
+    font-size: 26px;
+    color: #fff;
+}
+
+p {
+    margin: 1px;
+    font-size: 15px;
+    color: #fff;
+}
+
+div{
+    margin-top: 20px;
+}
+
+ul{
+    margin: 0px;
+    color: #fff;
+}
+
+a{
+    font-size: 19px;
+    text-decoration: none;
+    color: #69eBd0;
+}
+
+a:hover{
+    color: #04886d;
+    font-size: 20px;
+}
+
+.color{
+    font-size: 20px;
+}
+
+.color, .fundo{
+    color: #32d4b4;
+}
+
+.link1{
+    margin-top: 20px;
+    font-size: 19px;
+
+}
+
+.link2{
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+
+.data{
+    color: rgb(129, 119, 119);
+}
