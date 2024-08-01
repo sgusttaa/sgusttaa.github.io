@@ -42,6 +42,10 @@
 /* telas menores de 650px */
 
 @media (max-width: 650px) {
+    /* *{
+        border: 1px solid;   
+    } */
+
     .nav-ul {
         display: flex;
         justify-content: center; 
@@ -49,7 +53,7 @@
     }
 
     .contact .nav-link {
-        margin: 10px;
+        margin-top: 10px;
         display: block;
         justify-content: center;
         align-items: center;
@@ -59,5 +63,26 @@
     .contact .nav-link i {
         margin-right: 3px;
         font-size: 16px;
+    }
+
+    .home{
+        display: flex;
+        flex-direction: column;
+        width: 100%;    
+    }
+
+    .home-body{
+        width: 100%;
+        padding: 11vh 5vh 0 7vh;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .home-perfil {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
     }
 }
