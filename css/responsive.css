@@ -42,9 +42,6 @@
 /* telas menores de 650px */
 
 @media (max-width: 650px) {
-    /* *{
-        border: 1px solid;   
-    } */
 
     .nav-ul {
         display: flex;
@@ -52,8 +49,12 @@
         align-items: center;
     }
 
+    .nav-name{
+        padding: 10px;
+        margin: 0;
+    }
+
     .contact .nav-link {
-        margin-top: 10px;
         display: block;
         justify-content: center;
         align-items: center;
@@ -73,16 +74,55 @@
 
     .home-body{
         width: 100%;
-        padding: 11vh 5vh 0 7vh;
         display: flex;
         justify-content: center;
         text-align: center;
+        font-size: 30px;
+        padding: 20px;
     }
-    
+
     .home-perfil {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center; 
     }
+
+    .cv, .btn {
+        width: 200px;
+        font-size: var(--fs-sm);
+        padding: 5px 20px;
+        margin: 0 auto;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .cv{
+        margin-bottom: 20px;
+    }
+
+    img{
+        width: 150px;
+        margin: 0;
+    }
+
+    .btn{
+        display: flex;
+        flex-direction: column;        
+    }
+
+    .social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social-list {
+        justify-content: center;
+    }
+
+    .social-link{
+        margin: 0;
+    }
+
 }
